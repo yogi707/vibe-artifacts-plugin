@@ -13,7 +13,7 @@ Codex talks to the same vibe-artifacts tool server as Claude Code.
 
    ```toml
    [mcp_servers.vibe-artifacts]
-   url = "https://artifacts-api-staging.ekyogi.com/api/v1/mcp"
+   url = "https://artifacts-api.ekyogi.com/api/v1/mcp"
    bearer_token_env_var = "VIBE_ARTIFACTS_TOKEN"
    ```
 

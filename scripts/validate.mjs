@@ -38,7 +38,7 @@ if (mcp) {
     if (server.type !== 'http') fail('.mcp.json: type must be "http"');
     if (
       server.url !==
-      '${VIBE_ARTIFACTS_URL:-https://artifacts-api-staging.ekyogi.com}/api/v1/mcp'
+      '${VIBE_ARTIFACTS_URL:-https://artifacts-api.ekyogi.com}/api/v1/mcp'
     ) {
       fail('.mcp.json: url must default to the staging API and honour VIBE_ARTIFACTS_URL');
     }

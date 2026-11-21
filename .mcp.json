@@ -2,7 +2,7 @@
   "mcpServers": {
     "vibe-artifacts": {
       "type": "http",
-      "url": "${VIBE_ARTIFACTS_URL:-https://artifacts-api-staging.ekyogi.com}/api/v1/mcp",
+      "url": "${VIBE_ARTIFACTS_URL:-https://artifacts-api.ekyogi.com}/api/v1/mcp",
       "headers": {
         "Authorization": "Bearer ${VIBE_ARTIFACTS_TOKEN}"
       }

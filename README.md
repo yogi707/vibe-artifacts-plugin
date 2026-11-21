@@ -1,6 +1,6 @@
 # vibe-artifacts plugin
 
-Publish the HTML and Markdown pages your AI tools make to [vibe-artifacts](https://artifacts-staging.ekyogi.com),
+Publish the HTML and Markdown pages your AI tools make to [vibe-artifacts](https://artifacts.ekyogi.com),
 straight from Claude Code (and Codex). Ask "publish this" and Claude asks whether to publish now or
 save a draft, then gives you the link. Publishing the same file again adds a new version under the
 same link.
