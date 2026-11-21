@@ -62,6 +62,11 @@ if (skill) {
     if (!/^name: publish-artifact$/m.test(front[1])) fail(`${skillPath}: name must be publish-artifact`);
     if (!/^description: .{40,}/m.test(front[1])) fail(`${skillPath}: description is required`);
   }
+  // The upload command is `--data-binary @'<fileName>'` run from the file's folder,
+  // so fileName must be the bare name, never a path.
+  if (!/`fileName` must be the file's base name/.test(skill)) {
+    fail(`${skillPath}: must tell Claude to pass the file's base name as fileName`);
+  }
 }
 
 // No real access token anywhere in the repo.

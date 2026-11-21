@@ -30,7 +30,8 @@ The `vibe-artifacts` MCP server gives you these tools:
    - Known artifact: "Update “<title>” as a new version? Publish now or keep it as a draft?"
 
 4. **Call the tool.** Pass `sourceTool: "claude-code"` to `publish_artifact` when you are Claude Code
-   and `"codex"` when you are Codex.
+   and `"codex"` when you are Codex. `fileName` must be the file's base name (`latency.html`, not
+   `reports/latency.html`).
    - File of 200 KB or less: pass its full text as `content`.
    - Bigger file: call without `content`. The result has a `curl` command; run it exactly as given
      from the directory that contains the file. It prints the publish result as JSON. The link works
