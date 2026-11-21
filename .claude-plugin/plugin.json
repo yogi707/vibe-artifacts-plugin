@@ -1,0 +1,6 @@
+{
+  "name": "vibe-artifacts",
+  "version": "0.1.0",
+  "description": "Publish HTML and Markdown artifacts to vibe-artifacts from Claude Code.",
+  "keywords": ["artifacts", "publish", "html", "markdown"]
+}

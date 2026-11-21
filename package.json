@@ -1,0 +1,8 @@
+{
+  "name": "vibe-artifacts-plugin",
+  "private": true,
+  "description": "Claude Code plugin for publishing artifacts to vibe-artifacts",
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  }
+}

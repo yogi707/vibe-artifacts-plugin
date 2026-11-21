@@ -1,0 +1,11 @@
+{
+  "name": "vibe-artifacts",
+  "owner": { "name": "vibe-artifacts" },
+  "plugins": [
+    {
+      "name": "vibe-artifacts",
+      "source": "./",
+      "description": "Publish HTML and Markdown artifacts to vibe-artifacts from Claude Code."
+    }
+  ]
+}
