@@ -19,7 +19,7 @@ The `vibe-artifacts` MCP server gives you these tools:
    and `.md` are supported; for anything else, say so and offer to save it as HTML or Markdown first.
 
 2. **Was it published before?** Read `.vibe-artifacts.json` in the project root if it exists. It maps
-   file paths (relative to the project root) to artifact slugs, e.g. `{ "reports/latency.html": "k3j9x2" }`.
+   file paths (relative to the project root) to artifact slugs, e.g. `{ "reports/latency.html": "api-latency-report" }`.
    If the file is not there but the user says it was published, call `list_my_artifacts` with a few
    words of the title and confirm which one with the user.
 
